@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imx1Y2FzIiwiaWQiOiI2M2MyOTk4ODJlOTJjZGMyZDViMDBkMGYiLCJpYXQiOjE2NzM2OTc2ODl9.9T6XCne3gYOu9FGAYHUbdfLZjA0Je4t3ciG1gqft3OM
+
+{
+  "title": "blogs can only be created via a valid token",
+  "author": "lucas",
+  "url": "temp",
+  "likes": 0
+}
