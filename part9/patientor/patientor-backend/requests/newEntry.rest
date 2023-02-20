@@ -1,0 +1,14 @@
+POST http://localhost:3001/api/patients/d2773336-f723-11e9-8f0b-362b9e155667/entries
+Content-Type: application/json
+
+{
+  "date": "2023-02-14",
+  "specialist": "Lucas",
+  "description": "testing entry",
+  "type": "OccupationalHealthcare",
+  "employerName": "Mike",
+  "sickLeave": {
+    "startDate": "2023-01-01",
+    "endDate": "2023-02-01"
+  }
+}
